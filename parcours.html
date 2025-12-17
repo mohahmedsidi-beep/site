@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcours – Mohamed Ahmed</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-parcours">
+    <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+    <header class="hero" aria-label="En-tête de la page Parcours">
+        <h1 class="reveal r1">Mon parcours</h1>
+        <p class="reveal r2">
+            Parcours scolaire et académique présenté sous forme de cartes. Clique sur une carte pour lire une
+            description
+            détaillée (utile pour comprendre le contexte et pour l’accessibilité).
+        </p>
+
+        <nav aria-label="Menu principal">
+            <ul class="menu">
+                <li><a class="btn" href="index.html" aria-label="Aller à la page Accueil">Accueil</a></li>
+
+                <li><a class="btn" href="parcours.html" aria-current="page"
+                        aria-label="Aller à la page Parcours">Parcours</a></li>
+                <li><a class="btn" href="projects.html" aria-label="Aller à la page Projets">Projets</a></li>
+                <li><a class="btn" href="contact.html" aria-label="Aller à la page Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenu" aria-label="Contenu principal">
+        <section class="intro-box reveal r2" aria-label="Introduction du parcours">
+            <h2>Présentation</h2>
+            <p>
+                Mon parcours illustre une progression logique : bases scolaires, consolidation des compétences, puis
+                orientation
+                vers des études et projets liés à l’informatique et à l’innovation. L’objectif est de montrer une
+                continuité,
+                une capacité d’adaptation, et une motivation constante.
+            </p>
+        </section>
+
+        <section class="cards reveal r3" aria-label="Cartes du parcours">
+            <a class="card-link" href="#popup-ecole" aria-label="Ouvrir la fiche École maternelle">
+                <article class="card">
+                    <figure>
+                        <img src="images/ecole maternele .jpg"
+                            alt="École maternelle : première étape du parcours scolaire, apprentissages fondamentaux et socialisation.">
+                        <figcaption class="sr-only">École maternelle</figcaption>
+                    </figure>
+                    <h2>École maternelle</h2>
+                    <p>
+                        Premiers apprentissages : langage, autonomie, curiosité, et découverte du cadre scolaire.
+                    </p>
+                    <span>Voir la fiche →</span>
+                </article>
+            </a>
+
+            <a class="card-link" href="#popup-lycée" aria-label="Ouvrir la fiche Lycée">
+                <article class="card">
+                    <figure>
+                        <img src="images/lycée .jpg"
+                            alt="Lycée : consolidation des connaissances, rigueur, travail régulier et orientation progressive.">
+                        <figcaption class="sr-only">Lycée</figcaption>
+                    </figure>
+                    <h2>Lycée</h2>
+                    <p>
+                        Renforcement de la méthode de travail, objectifs plus clairs, et préparation à l’enseignement
+                        supérieur.
+                    </p>
+                    <span>Voir la fiche →</span>
+                </article>
+            </a>
+
+            <a class="card-link" href="#popup-maarif" aria-label="Ouvrir la fiche Maarif">
+                <article class="card">
+                    <figure>
+                        <img src="images/maarif.jpg"
+                            alt="Maarif : formation et environnement éducatif, développement de compétences et progression académique.">
+                        <figcaption class="sr-only">Maarif</figcaption>
+                    </figure>
+                    <h2>Maarif</h2>
+                    <p>
+                        Étape importante pour progresser : organisation, apprentissage, et développement de compétences
+                        utiles.
+                    </p>
+                    <span>Voir la fiche →</span>
+                </article>
+            </a>
+
+            <a class="card-link" href="#popup-sorbonne" aria-label="Ouvrir la fiche Sorbonne">
+                <article class="card">
+                    <figure>
+                        <img src="images/sorbonne.jpg"
+                            alt="Université Sorbonne : symbole d’excellence académique, motivation et ambition dans le parcours.">
+                        <figcaption class="sr-only">Sorbonne</figcaption>
+                    </figure>
+                    <h2>Sorbonne</h2>
+                    <p>
+                        Référence académique : représentation d’une ambition, d’un objectif élevé et d’un projet
+                        d’avenir.
+                    </p>
+                    <span>Voir la fiche →</span>
+                </article>
+            </a>
+
+            <a class="card-link" href="#popup-harverd" aria-label="Ouvrir la fiche Harvard">
+                <article class="card">
+                    <figure>
+                        <img src="images/harverd.jpg"
+                            alt="Harvard : inspiration pour viser l’excellence, rigueur et esprit de recherche.">
+                        <figcaption class="sr-only">Harvard</figcaption>
+                    </figure>
+                    <h2>Harvard</h2>
+                    <p>
+                        Une source d’inspiration : excellence, innovation et recherche. Un symbole de discipline et
+                        d’ambition.
+                    </p>
+                    <span>Voir la fiche →</span>
+                </article>
+            </a>
+        </section>
+
+        <!-- POPUPS -->
+        <section id="popup-ecole" class="popup" aria-label="Détails École maternelle">
+            <section class="popup-content scrollable">
+                <a href="#" class="close" aria-label="Fermer la fenêtre">&times;</a>
+                <img src="images/ecole maternele .jpg" alt="Illustration École maternelle">
+                <h3>École maternelle</h3>
+                <p>
+                    Cette étape représente la construction des bases : apprendre à communiquer, à écouter, à travailler
+                    en groupe,
+                    et à développer la curiosité. C’est une période essentielle pour prendre confiance, comprendre les
+                    règles,
+                    et construire une relation positive avec l’apprentissage.
+                </p>
+                <p>
+                    Même si elle semble “simple”, elle influence la suite : autonomie, attention, respect des consignes,
+                    et envie
+                    de progresser.
+                </p>
+            </section>
+        </section>
+
+        <section id="popup-lycée" class="popup" aria-label="Détails Lycée">
+            <section class="popup-content scrollable">
+                <a href="#" class="close" aria-label="Fermer la fenêtre">&times;</a>
+                <img src="images/lycée .jpg" alt="Illustration Lycée">
+                <h3>Lycée</h3>
+                <p>
+                    Le lycée est une étape de consolidation : on apprend à organiser son travail, à gérer la charge de
+                    cours,
+                    et à définir des objectifs. C’est aussi là que la méthode devient essentielle : régularité,
+                    révision,
+                    compréhension et capacité à expliquer.
+                </p>
+                <p>
+                    Cette période a renforcé ma discipline et ma motivation, et m’a aidé à préparer une orientation
+                    logique
+                    vers des domaines scientifiques et informatiques.
+                </p>
+            </section>
+        </section>
+
+        <section id="popup-maarif" class="popup" aria-label="Détails Maarif">
+            <section class="popup-content scrollable">
+                <a href="#" class="close" aria-label="Fermer la fenêtre">&times;</a>
+                <img src="images/maarif.jpg" alt="Illustration Maarif">
+                <h3>Maarif</h3>
+                <p>
+                    Cette étape représente un cadre d’apprentissage important : progression, acquisition de compétences,
+                    et amélioration continue. Elle m’a appris à être plus structuré, à viser des résultats concrets,
+                    et à renforcer mon autonomie.
+                </p>
+                <p>
+                    J’ai développé une logique de travail : comprendre, pratiquer, corriger, puis améliorer.
+                </p>
+            </section>
+        </section>
+
+        <section id="popup-sorbonne" class="popup" aria-label="Détails Sorbonne">
+            <section class="popup-content scrollable">
+                <a href="#" class="close" aria-label="Fermer la fenêtre">&times;</a>
+                <img src="images/sorbonne.jpg" alt="Illustration Sorbonne">
+                <h3>Sorbonne</h3>
+                <p>
+                    La Sorbonne est ici présentée comme une référence académique : elle symbolise l’exigence, la
+                    qualité,
+                    et la motivation à viser un haut niveau. Dans mon parcours, c’est une représentation de l’ambition :
+                    travailler sérieusement, progresser et construire un projet cohérent.
+                </p>
+                <p>
+                    Je relie cette idée à mon intérêt pour les sciences et l’informatique : apprendre, analyser, créer,
+                    et développer des solutions utiles.
+                </p>
+            </section>
+        </section>
+
+        <section id="popup-harverd" class="popup" aria-label="Détails Harvard">
+            <section class="popup-content scrollable">
+                <a href="#" class="close" aria-label="Fermer la fenêtre">&times;</a>
+                <img src="images/harverd.jpg" alt="Illustration Harvard">
+                <h3>Harvard</h3>
+                <p>
+                    Harvard représente une inspiration : excellence, innovation, rigueur et esprit de recherche. Ce
+                    n’est pas
+                    seulement un nom, c’est une idée : viser des standards élevés et rester constant dans l’effort.
+                </p>
+                <p>
+                    Cette référence renforce ma motivation à apprendre sérieusement, à faire des projets, et à
+                    développer des
+                    compétences techniques solides, notamment en informatique.
+                </p>
+            </section>
+        </section>
+
+    </main>
+
+    <footer aria-label="Pied de page">
+        <p>© 2025 — Portfolio — <strong>Sidi mohamedahmed</strong></p>
+    </footer>
+</body>
+
+</html>

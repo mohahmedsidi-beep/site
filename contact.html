@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – Mohamed Ahmed</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-contact">
+    <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+    <header class="hero" aria-label="En-tête de la page Contact">
+        <h1 class="reveal r1">Contact</h1>
+        <p class="reveal r2">
+            Tu peux me contacter via les informations ci-dessous ou via le formulaire.
+            Les champs sont étiquetés pour être accessibles (lecteurs d’écran + navigation clavier).
+        </p>
+
+        <nav aria-label="Menu principal">
+            <ul class="menu">
+                <li><a class="btn" href="index.html">Accueil</a></li>
+                <li><a class="btn" href="parcours.html">Parcours</a></li>
+                <li><a class="btn" href="projects.html">Projets</a></li>
+                <li><a class="btn" aria-current="page" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenu" aria-label="Contenu principal">
+        <section class="contact-grid reveal r3" aria-label="Bloc contact">
+
+            <section class="contact-card" aria-label="Informations personnelles">
+                <figure class="profile-figure">
+                    <img src="images/mohamedahmed.jpg"
+                        alt="Photo de profil : Mohamed Ahmed Sidi, portrait pour le portfolio.">
+                    <figcaption class="sr-only">Photo de profil</figcaption>
+                </figure>
+
+                <h2>Informations</h2>
+                <p>
+                    Pour me contacter, utilise mon email ou le formulaire. Si tu écris un message, indique clairement :
+                    le sujet, le contexte, et ce que tu attends (question, collaboration, projet, etc.).
+                </p>
+
+                <ul class="contact-list" aria-label="Coordonnées">
+                    <li><strong>Nom :</strong> <span>Mohamed Ahmed Sidi</span></li>
+                    <li><strong>Date de naissance :</strong> <span>12/09/2005</span></li>
+                    <li><strong>Email :</strong> <span>mhdstifc@gmail.com</span></li>
+                </ul>
+            </section>
+
+            <section class="form-card" aria-label="Formulaire de contact">
+                <h2>Envoyer un message</h2>
+
+                <form action="#" method="post" aria-label="Formulaire de contact">
+
+                    <section class="field">
+                        <label for="nom">Nom</label>
+                        <input id="nom" name="nom" type="text" autocomplete="name" required value="Mohamed Ahmed Sidi"
+                            aria-describedby="hint-nom">
+                        <p id="hint-nom" class="hint">Ton nom complet (pré-rempli ici).</p>
+                    </section>
+
+                    <section class="field">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required
+                            value="mhdstifc@gmail.com" aria-describedby="hint-email">
+                        <p id="hint-email" class="hint">Adresse email (pré-remplie ici).</p>
+                    </section>
+
+                    <section class="field">
+                        <label for="sujet">Sujet</label>
+                        <input id="sujet" name="sujet" type="text" required aria-describedby="hint-sujet"
+                            value="Prise de contact (Portfolio)">
+                        <p id="hint-sujet" class="hint">Exemple : question, projet, collaboration, stage.</p>
+                    </section>
+
+                    <section class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="7" required aria-describedby="hint-message">Bonjour Mohamed,
+
+Je te contacte au sujet de :
+Contexte :
+Ce que j’attends / ma demande :
+
+Merci.</textarea>
+                        <p id="hint-message" class="hint">
+                            Décris le contexte et ta demande pour que je réponde clairement.
+                        </p>
+                    </section>
+
+                    <section class="actions" aria-label="Actions du formulaire">
+                        <button class="btn btn-solid" type="submit">Envoyer</button>
+                        <a class="btn" href="index.html">Retour</a>
+                    </section>
+
+                </form>
+            </section>
+
+        </section>
+    </main>
+
+    <footer aria-label="Pied de page">
+        <p>© 2025 — Portfolio — <strong>Sidi Mohamed Hamady</strong></p>
+    </footer>
+</body>
+
+</html>
